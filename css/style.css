@@ -1,0 +1,21 @@
+/* Tyylit taulukon soluille */
+table {
+    border-collapse: separate; /* Erota solut toisistaan */
+    border-spacing: 10px; /* Lisää tilaa solujen väliin */
+    margin-top: 20px; /* Lisää tilaa taulukon yläpuolelle */
+}
+
+td {
+    width: 50px; /* Määritä solun leveys */
+    height: 50px; /* Määritä solun korkeus */
+    text-align: center; /* Keskitä teksti */
+    vertical-align: middle; /* Keskitä sisältö pystysuunnassa */
+    border: 2px solid #000; /* Määritä solun reunaviiva */
+    border-radius: 10px; /* Pyöristetyt reunat */
+    background-color: #f0f0f0; /* Taustaväri */
+    font-size: 18px; /* Tekstin koko */
+}
+
+button {
+    background-color: #E6E6FA;
+}
